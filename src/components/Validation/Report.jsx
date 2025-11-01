@@ -26,7 +26,7 @@ const Report = ({ report }) => {
         ))}
       </ul>
 
-      <h3 className="text-lg font-semibold mt-5 mb-2 text-gray-700">Cleaned Data (after imputation)</h3>
+      <h3 className="text-lg font-semibold mt-5 mb-2 text-gray-700">Cleaned Data </h3>
       <pre className="bg-white p-4 rounded-lg text-xs overflow-auto border border-gray-200">
         {JSON.stringify(report.cleanedData, null, 2)}
       </pre>
